@@ -1,0 +1,6 @@
+module CMuPDF [system] {
+  link "mupdf"
+  link "mupdf-third"
+  header "shim.h"
+  export *
+}

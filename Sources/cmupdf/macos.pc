@@ -1,0 +1,8 @@
+prefix=/opt/homebrew/
+libdir=${prefix}/lib
+includedir=${prefix}/include
+Name: MuPDF
+Description: MuPDF
+Version: 1.23.9
+Cflags: -I${includedir}
+Libs: -L${libdir} -lmupdf -lmupdf-third

@@ -1,0 +1,12 @@
+//
+//  MuPDF.modulemap
+//  MuPDF
+//
+//  Created by Kiryl Matsaberydze on 27/01/2024.
+//
+
+module <#ModuleName#> {
+    header "<#Header#>.h"
+
+    export *
+}
