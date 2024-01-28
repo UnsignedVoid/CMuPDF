@@ -6,7 +6,6 @@ import CoreGraphics
 import Foundation
 import System
 
-@available(macOS 11, *)
 public class MuPDF {
 
   private let ctx: UnsafeMutablePointer<fz_context>!

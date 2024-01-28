@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
     name: "mupdf-swift",
+    platforms: [
+      .macOS(.v11)
+    ],
         products: [
         .library(
             name: "MuPDF",
