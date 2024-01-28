@@ -4,11 +4,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "MuPDF",
+    name: "mupdf-swift",
         products: [
         .library(
             name: "MuPDF",
-            targets: ["MuPDF"]),
+            targets: ["MuPDF"]
+          ),
     ],
     targets: [
         .target(
